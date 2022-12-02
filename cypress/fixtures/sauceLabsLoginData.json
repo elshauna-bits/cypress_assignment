@@ -1,0 +1,34 @@
+[
+    {
+        "name": "should login as the standard_user",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expectedUrl": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+        "name":"should attempt to login as the locked_out_user",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expectedUrl": "https://www.saucedemo.com/"
+    },
+    {
+        "name":"should login as the problem_user",
+        "username": "problem_user",
+        "password": "secret_sauce",
+        "expectedUrl": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+        "name":"should login as the performance_glitch_user",
+        "username": "performance_glitch_user",
+        "password": "secret_sauce",
+        "expectedUrl": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+        "name": "should attempt to login as the invalid_user",
+        "username": "invalid_user",
+        "password": "secret_sauce",
+        "expectedUrl": "https://www.saucedemo.com/"
+    }
+]
+    
+        
